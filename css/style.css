@@ -1,0 +1,172 @@
+.navbar{
+	margin-top: 20px;
+	background: #0383c0 url(../img/grey.jpg) repeat-x;
+	border: 1px #ccc solid;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default a:hover{
+	background: none;
+	color: #0383c0 !important;
+	font-size: 25px;
+}
+
+.jumbotron{
+	overflow: auto;
+	padding: 0 !important;
+}
+
+.jumbotron p{
+	font-size: 15px;
+}
+
+.logo{
+	width: 100%;
+	margin: 40px 0 0 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.primary{
+	color: #0383c0;
+}
+
+.subtext{
+	color: #666;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 0 0 43px;
+}
+
+.main-image{
+	width: 100%;
+}
+
+header form{
+	float: right;
+	margin-top: 40px;
+	background: #0383c0;
+	padding: 15px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#products img{
+	width: 300px;
+	height: 200px;
+}
+
+.thumbnail .caption{
+	padding: 10px 10px 0 10px;
+}
+
+
+
+.tablist{
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 30%;
+}
+
+
+.tablist li{
+	background: #ccc;
+ 	list-style: none;
+ 	color: #666;
+ 	margin-bottom: 5px;
+ 	width: 100%;
+ 	font-size: 15px;
+}
+
+.tablist li.active{
+	background: #0383c0;
+}
+
+.tablist li.active a{
+	color: #fff;
+}
+
+.tablist a{
+	color: #666;
+	display: block;
+	text-decoration: none;
+	padding: 15px 10px;
+ 	padding-left: 20px;
+}
+
+.tab-content{
+	float: right;
+	width: 70%;
+	background: #0383c0;
+	color: #fff;
+	overflow: hidden;
+	height: 275px;
+	padding-top: 20px;
+}
+
+.slide-img{
+	float: right;
+	width: 50%;
+}
+
+.tab-text{
+	float: left;
+	width: 40%;
+	margin-left: 40px;
+}
+
+footer{
+	text-align: center;
+	height: 60px;
+	background: #0383c0;
+	padding-top: 20px;
+	margin-top: 50px;
+	color: #fff !important;
+}
+
+@media(max-width: 990px){
+	header form{
+		width: 100% !important;
+		float: left;
+	}
+
+	.slide-img{
+		display: none;
+	}
+
+	.tab-text{
+		width: 90%;
+
+	}
+
+}
+
+
+@media (max-width: 990px) and (min-width: 768px){
+	.container-fluid{
+		padding: 0;
+	}
+
+}	
+
+
+@media(max-width: 768px){
+	.navbar a{
+		color: #fff !important;
+	}
+
+	.navbar-header{
+		color: #fff;
+	}
+	.navbar-collapse{
+		background-color: #0383c0;
+	}
+
+	.navbar a:hover{
+		color: #fff !important;
+	}
+	.navbar-form{
+		display: none;
+	}
+}
+
+
